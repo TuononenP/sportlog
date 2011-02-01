@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #aac1c6;
+}
+
+label {
+	display: block;
+}
+
+.login_block {
+	width: 50%;
+	margin: auto;
+}
+
+.rounded_login {
+	width: auto;
+	height: 250px;
+	/*margin: auto;*/
+	color: white;
+	padding: 30px 20px;
+	background-color: #5991b8;
+	/* rounded bottom corners */
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+.top_bar {
+	background-image: url('../pics/title_bg_narrow.png');
+	background-repeat: repeat-x;
+	background-position: top left;
+	width: auto;
+	height: 80px;
+	line-height: 5em;
+	padding-left: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.main_page {
+	margin-top: 30px;
+	margin-bottom: 300px;
+}
+
+.logo_top {
+	background-image: url('../pics/sportlog_logo.png');
+	background-repeat: no-repeat;
+	width: auto;
+	height: 80px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+}
+
+.container {
+	
+}
+
+.main_block {
+	width: 746px;
+	margin: auto;
+}
+
+.content_block {
+	background-color: #e1e1e5;
+	width: auto;
+	min-height: 400px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.bottom_bar {
+	height: 30px;
+	width: auto;
+	background-color: #375161;
+	padding-left: 20px;
+	/* rounded bottom corners */
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+.copyright_text {
+	font-size: 10px;
+	color: #ffffff;
+	line-height: 30px;
+	font-family: Serif, Verdana, Arial;
+}
+
+.buttons {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+fieldset {
+	border: none;
+}
+
+.reg_fields_text {
+	margin: 0px;
+}
+
+.margin_select_athlete {
+	margin-top: 30px;
+	margin-bottom: 200px;
+}
+
+a {
+	color: #074770;
+}

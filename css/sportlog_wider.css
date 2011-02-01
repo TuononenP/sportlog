@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #aac1c6;
+}
+
+label {
+	display: block;
+}
+
+.login_block {
+	width: 50%;
+	margin: auto;
+}
+
+.top_bar {
+	background-image: url('../pics/title_bg_narrow.png');
+	background-repeat: repeat-x;
+	background-position: top left;
+	width: auto;
+	height: 80px;
+	line-height: 5em;
+	padding-left: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.main_page {
+	margin-top: 30px;
+	margin-bottom: 300px;
+}
+
+.logo_top {
+	background-image: url('../pics/sportlog_logo.png');
+	background-repeat: no-repeat;
+	width: auto;
+	height: 80px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+}
+
+.container {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.main_block {
+	width: 100%;
+}
+
+.content_block {
+	background-color: #e1e1e5;
+	width: auto;
+	min-height: 400px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.navi {
+	background-color: #375161;
+	width: auto;
+	height: 32px;
+}
+
+.bottom_bar {
+	height: 30px;
+	width: auto;
+	background-color: #375161;
+	padding-left: 20px;
+	/* rounded bottom corners */
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+.copyright_text {
+	font-size: 10px;
+	color: #ffffff;
+	line-height: 30px;
+	font-family: Serif, Verdana, Arial;
+}
+
+.buttons {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+fieldset {
+	border: none;
+}
+
+.reg_fields_text {
+	margin: 0px;
+}
+
+.datatable { /*
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+*/
+	
+}
+
+.titlefields_tr {
+	background-color: #5e3b5e;
+	font-size: 14px;
+	color: #c4c4c4;
+}
+
+.titlefields_td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.datafields_tr_odd {
+	background-color: #bfb8c8;
+	font-size: 14px;
+}
+
+.datafields_tr_even {
+	background-color: #8b7b9d;
+	font-size: 14px;
+}
+
+.datafields_td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+}
+
+.buttons_td {
+	background-color: #e1e1e5;
+}
+
+.buttons_form {
+	display: inline;
+}
+
+.show_title {
+	margin-left: 98px;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	font-style: oblique;
+}
+
+a {
+	color: #074770;
+}
